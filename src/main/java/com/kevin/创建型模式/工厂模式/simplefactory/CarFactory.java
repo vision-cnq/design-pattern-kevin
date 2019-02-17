@@ -22,11 +22,11 @@ public class CarFactory {
     }
 
     // 方式二：
-    /*public static Car createAudi(){
+    public static Car createAudi(){
         return new Audi();
     }
     public static Car createByd(){
         return new Byd();
-    }*/
+    }
 
 }

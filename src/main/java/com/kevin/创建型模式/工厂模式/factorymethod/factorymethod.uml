@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.创建型模式.工厂模式.factorymethod.Audi</OriginalElement>
+  <nodes>
+    <node x="0.0" y="113.0">com.kevin.创建型模式.工厂模式.factorymethod.Audi</node>
+    <node x="54.90909090909088" y="216.0">com.kevin.创建型模式.工厂模式.factorymethod.AudiFactory</node>
+    <node x="295.5" y="319.0">com.kevin.创建型模式.工厂模式.factorymethod.Test</node>
+    <node x="298.49242424242425" y="216.0">com.kevin.创建型模式.工厂模式.factorymethod.BydFactory</node>
+    <node x="247.04545454545456" y="0.0">com.kevin.创建型模式.工厂模式.factorymethod.Car</node>
+    <node x="321.0" y="113.0">com.kevin.创建型模式.工厂模式.factorymethod.Byd</node>
+    <node x="145.0" y="113.0">com.kevin.创建型模式.工厂模式.factorymethod.CarFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.Test" target="com.kevin.创建型模式.工厂模式.factorymethod.AudiFactory">
+      <point x="-58.33333333333337" y="-26.5" />
+      <point x="324.66666666666663" y="294.0" />
+      <point x="132.90909090909088" y="294.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.AudiFactory" target="com.kevin.创建型模式.工厂模式.factorymethod.CarFactory">
+      <point x="52.0" y="-26.5" />
+      <point x="-39.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.Audi" target="com.kevin.创建型模式.工厂模式.factorymethod.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="62.0" y="73.0" />
+      <point x="257.3787878787879" y="73.0" />
+      <point x="-51.666666666666686" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.AudiFactory" target="com.kevin.创建型模式.工厂模式.factorymethod.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="132.90909090909088" y="191.0" />
+      <point x="134.5" y="191.0" />
+      <point x="134.5" y="83.0" />
+      <point x="278.04545454545456" y="83.0" />
+      <point x="-31.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.BydFactory" target="com.kevin.创建型模式.工厂模式.factorymethod.Car">
+      <point x="52.0" y="-26.5" />
+      <point x="428.49242424242425" y="191.0" />
+      <point x="458.0" y="191.0" />
+      <point x="458.0" y="83.0" />
+      <point x="340.04545454545456" y="83.0" />
+      <point x="31.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.BydFactory" target="com.kevin.创建型模式.工厂模式.factorymethod.CarFactory">
+      <point x="-52.0" y="-26.5" />
+      <point x="324.49242424242425" y="191.0" />
+      <point x="262.0" y="191.0" />
+      <point x="39.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.BydFactory" target="com.kevin.创建型模式.工厂模式.factorymethod.Byd">
+      <point x="0.0" y="-26.5" />
+      <point x="376.49242424242425" y="191.0" />
+      <point x="383.0" y="191.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.CarFactory" target="com.kevin.创建型模式.工厂模式.factorymethod.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="223.0" y="93.0" />
+      <point x="298.71212121212125" y="93.0" />
+      <point x="-10.333333333333314" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.Byd" target="com.kevin.创建型模式.工厂模式.factorymethod.Car">
+      <point x="0.0" y="-26.5" />
+      <point x="383.0" y="93.0" />
+      <point x="319.3787878787879" y="93.0" />
+      <point x="10.333333333333314" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.Test" target="com.kevin.创建型模式.工厂模式.factorymethod.BydFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="383.0" y="294.0" />
+      <point x="376.49242424242425" y="294.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.AudiFactory" target="com.kevin.创建型模式.工厂模式.factorymethod.Audi">
+      <point x="-52.0" y="-26.5" />
+      <point x="80.90909090909088" y="191.0" />
+      <point x="62.0" y="191.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.工厂模式.factorymethod.Test" target="com.kevin.创建型模式.工厂模式.factorymethod.Car">
+      <point x="58.333333333333314" y="-26.5" />
+      <point x="441.3333333333333" y="294.0" />
+      <point x="479.1363636363637" y="294.0" />
+      <point x="479.1363636363637" y="73.0" />
+      <point x="360.71212121212125" y="73.0" />
+      <point x="51.666666666666686" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="186.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
