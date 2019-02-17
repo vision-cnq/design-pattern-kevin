@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.创建型模式.单例模式.SingletonDemo1</OriginalElement>
+  <nodes>
+    <node x="263.0" y="530.0">com.kevin.创建型模式.单例模式.SingletonDemo3</node>
+    <node x="763.0" y="530.0">com.kevin.创建型模式.单例模式.SingletonDemo2</node>
+    <node x="526.0" y="542.0">com.kevin.创建型模式.单例模式.SingletonDemo5</node>
+    <node x="0.0" y="542.0">com.kevin.创建型模式.单例模式.SingletonDemo4</node>
+    <node x="425.25" y="103.0">java.lang.Enum</node>
+    <node x="724.25" y="229.5">com.kevin.创建型模式.单例模式.SingletonDemo6</node>
+    <node x="547.0" y="681.0">com.kevin.创建型模式.单例模式.Test</node>
+    <node x="411.0" y="0.0">java.lang.Comparable</node>
+    <node x="1026.0" y="530.0">com.kevin.创建型模式.单例模式.SingletonDemo1</node>
+    <node x="760.25" y="11.5">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.创建型模式.单例模式.SingletonDemo6" target="java.io.Serializable">
+      <point x="0.0" y="-62.0" />
+      <point x="28.5" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="69.75" y="-188.5" />
+      <point x="634.5" y="78.0" />
+      <point x="788.75" y="78.0" />
+      <point x="-28.5" y="15.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.单例模式.SingletonDemo5" target="java.lang.Enum">
+      <point x="0.0" y="-38.5" />
+      <point x="69.75" y="188.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-69.75" y="-188.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.单例模式.Test" target="com.kevin.创建型模式.单例模式.SingletonDemo5">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.单例模式.Test" target="com.kevin.创建型模式.单例模式.SingletonDemo4">
+      <point x="-70.0" y="-26.5" />
+      <point x="564.5" y="661.0" />
+      <point x="121.5" y="661.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.单例模式.Test" target="com.kevin.创建型模式.单例模式.SingletonDemo3">
+      <point x="-35.0" y="-26.5" />
+      <point x="599.5" y="651.0" />
+      <point x="384.5" y="651.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.单例模式.Test" target="com.kevin.创建型模式.单例模式.SingletonDemo2">
+      <point x="35.0" y="-26.5" />
+      <point x="669.5" y="651.0" />
+      <point x="884.5" y="651.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Enum">
+      <point x="-69.75" y="188.5" />
+      <point x="495.0" y="500.0" />
+      <point x="405.25" y="500.0" />
+      <point x="405.25" y="291.5" />
+      <point x="-139.5" y="-0.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.单例模式.Test" target="com.kevin.创建型模式.单例模式.SingletonDemo1">
+      <point x="70.0" y="-26.5" />
+      <point x="704.5" y="661.0" />
+      <point x="1147.5" y="661.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="723.5" y="302.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
