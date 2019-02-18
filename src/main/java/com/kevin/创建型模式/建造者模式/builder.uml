@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.创建型模式.建造者模式.AirShip</OriginalElement>
+  <nodes>
+    <node x="191.34482758620692" y="291.0">com.kevin.创建型模式.建造者模式.AirShipBuilder</node>
+    <node x="570.9612068965519" y="554.0">com.kevin.创建型模式.建造者模式.AirShipDirector</node>
+    <node x="326.3000821018064" y="0.0">com.kevin.创建型模式.建造者模式.EscapeTower</node>
+    <node x="390.25" y="700.0">com.kevin.创建型模式.建造者模式.SpaceAirShipDirector</node>
+    <node x="503.3448275862069" y="210.0">com.kevin.创建型模式.建造者模式.AirShip</node>
+    <node x="35.34482758620692" y="531.0">com.kevin.创建型模式.建造者模式.SpaceAirShipBuilder</node>
+    <node x="513.594827586207" y="827.0">com.kevin.创建型模式.建造者模式.Test</node>
+    <node x="40.99322660098517" y="0.0">com.kevin.创建型模式.建造者模式.Engine</node>
+    <node x="702.0114942528736" y="0.0">com.kevin.创建型模式.建造者模式.OrbitalModule</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.创建型模式.建造者模式.AirShipBuilder" target="com.kevin.创建型模式.建造者模式.Engine">
+      <point x="-97.0" y="-49.5" />
+      <point x="239.84482758620692" y="160.0" />
+      <point x="152.4098932676518" y="160.0" />
+      <point x="15.916666666666629" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.AirShip" target="com.kevin.创建型模式.建造者模式.Engine">
+      <point x="-121.66666666666663" y="-130.5" />
+      <point x="527.6781609195402" y="150.0" />
+      <point x="184.24322660098517" y="150.0" />
+      <point x="47.75" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.AirShipBuilder" target="com.kevin.创建型模式.建造者模式.OrbitalModule">
+      <point x="97.0" y="-49.5" />
+      <point x="433.8448275862069" y="180.0" />
+      <point x="717.9281609195402" y="180.0" />
+      <point x="-79.58333333333331" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipDirector" target="com.kevin.创建型模式.建造者模式.EscapeTower">
+      <point x="-13.0" y="-38.5" />
+      <point x="481.25" y="680.0" />
+      <point x="492.8448275862069" y="680.0" />
+      <point x="492.8448275862069" y="170.0" />
+      <point x="437.71674876847305" y="170.0" />
+      <point x="15.916666666666657" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipDirector" target="com.kevin.创建型模式.建造者模式.AirShipDirector">
+      <point x="65.0" y="-38.5" />
+      <point x="559.25" y="670.0" />
+      <point x="622.9612068965519" y="670.0" />
+      <point x="-52.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.Test" target="com.kevin.创建型模式.建造者模式.AirShipDirector">
+      <point x="21.875" y="-26.5" />
+      <point x="622.969827586207" y="797.0" />
+      <point x="726.9612068965519" y="797.0" />
+      <point x="52.00000000000003" y="26.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipDirector" target="com.kevin.创建型模式.建造者模式.AirShipBuilder">
+      <point x="-65.0" y="-38.5" />
+      <point x="429.25" y="660.0" />
+      <point x="368.6449096880133" y="660.0" />
+      <point x="368.6449096880133" y="491.0" />
+      <point x="336.8448275862069" y="491.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.AirShipBuilder" target="com.kevin.创建型模式.建造者模式.EscapeTower">
+      <point x="0.0" y="-49.5" />
+      <point x="336.8448275862069" y="190.0" />
+      <point x="405.88341543513974" y="190.0" />
+      <point x="-15.916666666666671" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipBuilder" target="com.kevin.创建型模式.建造者模式.EscapeTower">
+      <point x="-5.6843418860808015E-14" y="-49.5" />
+      <point x="180.84482758620686" y="511.0" />
+      <point x="156.0" y="511.0" />
+      <point x="156.0" y="180.0" />
+      <point x="374.0500821018064" y="180.0" />
+      <point x="-47.75" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.AirShip" target="com.kevin.创建型模式.建造者模式.EscapeTower">
+      <point x="24.33333333333337" y="-130.5" />
+      <point x="673.6781609195402" y="120.0" />
+      <point x="501.3834154351397" y="120.0" />
+      <point x="79.58333333333329" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.AirShip" target="com.kevin.创建型模式.建造者模式.OrbitalModule">
+      <point x="73.0" y="-130.5" />
+      <point x="722.344827586207" y="190.0" />
+      <point x="749.7614942528736" y="190.0" />
+      <point x="-47.75" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipDirector" target="com.kevin.创建型模式.建造者模式.AirShip">
+      <point x="13.0" y="-38.5" />
+      <point x="507.25" y="650.0" />
+      <point x="539.0500821018063" y="650.0" />
+      <point x="-109.5" y="130.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipDirector" target="com.kevin.创建型模式.建造者模式.OrbitalModule">
+      <point x="91.0" y="-38.5" />
+      <point x="585.25" y="680.0" />
+      <point x="856.2614942528736" y="680.0" />
+      <point x="856.2614942528736" y="190.0" />
+      <point x="877.094827586207" y="190.0" />
+      <point x="79.58333333333331" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipBuilder" target="com.kevin.创建型模式.建造者模式.Engine">
+      <point x="-83.14285714285717" y="-49.5" />
+      <point x="97.70197044334975" y="511.0" />
+      <point x="119.94293924466348" y="511.0" />
+      <point x="-15.916666666666629" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.AirShipDirector" target="com.kevin.创建型模式.建造者模式.AirShip">
+      <point x="0.0" y="-26.5" />
+      <point x="674.9612068965519" y="491.0" />
+      <point x="685.844827586207" y="491.0" />
+      <point x="36.5" y="130.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.Test" target="com.kevin.创建型模式.建造者模式.SpaceAirShipBuilder">
+      <point x="-65.625" y="-26.5" />
+      <point x="535.469827586207" y="807.0" />
+      <point x="156.0" y="807.0" />
+      <point x="156.0" y="680.0" />
+      <point x="180.84482758620692" y="680.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.Test" target="com.kevin.创建型模式.建造者模式.AirShip">
+      <point x="65.625" y="-26.5" />
+      <point x="666.719827586207" y="807.0" />
+      <point x="797.7112068965519" y="807.0" />
+      <point x="797.7112068965519" y="491.0" />
+      <point x="758.844827586207" y="491.0" />
+      <point x="109.5" y="130.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipBuilder" target="com.kevin.创建型模式.建造者模式.OrbitalModule">
+      <point x="124.71428571428572" y="-49.5" />
+      <point x="305.55911330049264" y="511.0" />
+      <point x="845.2614942528736" y="511.0" />
+      <point x="47.74999999999994" y="50.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipBuilder" target="com.kevin.创建型模式.建造者模式.AirShipBuilder">
+      <point x="41.571428571428555" y="-49.5" />
+      <point x="222.41625615763547" y="511.0" />
+      <point x="239.84482758620692" y="511.0" />
+      <point x="-97.0" y="49.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.Test" target="com.kevin.创建型模式.建造者模式.SpaceAirShipDirector">
+      <point x="-21.875" y="-26.5" />
+      <point x="579.219827586207" y="797.0" />
+      <point x="494.25" y="797.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.kevin.创建型模式.建造者模式.SpaceAirShipDirector" target="com.kevin.创建型模式.建造者模式.Engine">
+      <point x="-91.0" y="-38.5" />
+      <point x="403.25" y="670.0" />
+      <point x="0.0" y="670.0" />
+      <point x="0.0" y="190.0" />
+      <point x="56.909893267651796" y="190.0" />
+      <point x="-79.58333333333337" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="391.5" y="411.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
