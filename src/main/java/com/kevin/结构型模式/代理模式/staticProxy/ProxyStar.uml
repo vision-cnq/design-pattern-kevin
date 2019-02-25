@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.结构型模式.代理模式.staticProxy.ProxyStar</OriginalElement>
+  <nodes>
+    <node x="69.51500000000001" y="0.0">com.kevin.结构型模式.代理模式.staticProxy.Star</node>
+    <node x="189.7216666666667" y="414.0">com.kevin.结构型模式.代理模式.staticProxy.Test</node>
+    <node x="0.0" y="195.0">com.kevin.结构型模式.代理模式.staticProxy.ProxyStar</node>
+    <node x="202.0" y="207.0">com.kevin.结构型模式.代理模式.staticProxy.RealStar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.结构型模式.代理模式.staticProxy.Test" target="com.kevin.结构型模式.代理模式.staticProxy.ProxyStar">
+      <point x="-65.625" y="-26.5" />
+      <point x="211.5966666666667" y="394.0" />
+      <point x="91.0" y="394.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.代理模式.staticProxy.ProxyStar" target="com.kevin.结构型模式.代理模式.staticProxy.Star">
+      <point x="60.666666666666686" y="-84.5" />
+      <point x="151.66666666666669" y="175.0" />
+      <point x="160.51500000000001" y="175.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.代理模式.staticProxy.Test" target="com.kevin.结构型模式.代理模式.staticProxy.RealStar">
+      <point x="-21.875" y="-26.5" />
+      <point x="255.3466666666667" y="394.0" />
+      <point x="247.5" y="394.0" />
+      <point x="-45.5" y="72.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.代理模式.staticProxy.RealStar" target="com.kevin.结构型模式.代理模式.staticProxy.Star">
+      <point x="0.0" y="-72.5" />
+      <point x="293.0" y="175.0" />
+      <point x="196.91500000000005" y="175.0" />
+      <point x="36.400000000000034" y="72.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.代理模式.staticProxy.Test" target="com.kevin.结构型模式.代理模式.staticProxy.Star">
+      <point x="65.625" y="-26.5" />
+      <point x="342.8466666666667" y="394.0" />
+      <point x="394.5" y="394.0" />
+      <point x="394.5" y="165.0" />
+      <point x="233.31500000000003" y="165.0" />
+      <point x="72.80000000000001" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.5" y="179.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
