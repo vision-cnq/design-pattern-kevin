@@ -1,12 +1,14 @@
 package com.kevin.结构型模式.代理模式.staticProxy;
 
+import com.kevin.结构型模式.代理模式.proxy.Star;
+
 /**
  * @author kevin
  * @version 1.0
  * @description     代理角色
  * @createDate 2019/2/25
  */
-public class ProxyStar implements Star{
+public class ProxyStar implements Star {
 
     private Star star;  // 代理的对象
 

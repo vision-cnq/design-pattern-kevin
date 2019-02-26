@@ -1,6 +1,9 @@
 package com.kevin.结构型模式.代理模式.staticProxy;
 
 
+import com.kevin.结构型模式.代理模式.proxy.RealStar;
+import com.kevin.结构型模式.代理模式.proxy.Star;
+
 /**
  * @author kevin
  * @version 1.0

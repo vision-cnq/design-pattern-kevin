@@ -1,4 +1,4 @@
-package com.kevin.结构型模式.代理模式.staticProxy;
+package com.kevin.结构型模式.代理模式.proxy;
 
 /**
  * @author kevin
@@ -6,7 +6,7 @@ package com.kevin.结构型模式.代理模式.staticProxy;
  * @description     真实角色
  * @createDate 2019/2/25
  */
-public class RealStar implements Star {
+public class RealStar implements Star{
 
     @Override
     public void confer() {
