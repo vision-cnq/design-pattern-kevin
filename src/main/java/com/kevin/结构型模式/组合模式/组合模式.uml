@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.结构型模式.组合模式.Leaf</OriginalElement>
+  <nodes>
+    <node x="235.0" y="80.0">com.kevin.结构型模式.组合模式.VideoFile</node>
+    <node x="356.0" y="80.0">com.kevin.结构型模式.组合模式.Folder</node>
+    <node x="111.0" y="80.0">com.kevin.结构型模式.组合模式.ImageFile</node>
+    <node x="166.75" y="0.0">com.kevin.结构型模式.组合模式.AbstractFile</node>
+    <node x="0.0" y="80.0">com.kevin.结构型模式.组合模式.TextFile</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.结构型模式.组合模式.Folder" target="com.kevin.结构型模式.组合模式.AbstractFile">
+      <point x="0.0" y="-15.0" />
+      <point x="398.5" y="50.0" />
+      <point x="267.375" y="50.0" />
+      <point x="43.125" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.组合模式.ImageFile" target="com.kevin.结构型模式.组合模式.AbstractFile">
+      <point x="0.0" y="-15.0" />
+      <point x="163.0" y="60.0" />
+      <point x="209.875" y="60.0" />
+      <point x="-14.375" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.组合模式.VideoFile" target="com.kevin.结构型模式.组合模式.AbstractFile">
+      <point x="0.0" y="-15.0" />
+      <point x="285.5" y="60.0" />
+      <point x="238.625" y="60.0" />
+      <point x="14.375" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.组合模式.TextFile" target="com.kevin.结构型模式.组合模式.AbstractFile">
+      <point x="0.0" y="-15.0" />
+      <point x="45.5" y="50.0" />
+      <point x="181.125" y="50.0" />
+      <point x="-43.125" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.7000000000000006" x="226.0" y="99.99999999999997" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

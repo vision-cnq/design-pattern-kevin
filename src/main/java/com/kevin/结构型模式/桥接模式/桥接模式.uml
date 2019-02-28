@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.结构型模式.桥接模式.bridge.Computer2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="235.0">com.kevin.结构型模式.桥接模式.bridge.Hasee</node>
+    <node x="104.0" y="235.0">com.kevin.结构型模式.桥接模式.bridge.Dell</node>
+    <node x="97.5" y="155.0">com.kevin.结构型模式.桥接模式.bridge.Brand</node>
+    <node x="0.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Laptop2</node>
+    <node x="116.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Desktop2</node>
+    <node x="111.5" y="0.0">com.kevin.结构型模式.桥接模式.bridge.Computer2</node>
+    <node x="194.0" y="235.0">com.kevin.结构型模式.桥接模式.bridge.Lenovo</node>
+    <node x="240.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Pad2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Hasee" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
+      <point x="0.0" y="-15.0" />
+      <point x="42.0" y="210.0" />
+      <point x="111.33333333333333" y="210.0" />
+      <point x="-27.66666666666667" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Dell" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Lenovo" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
+      <point x="0.0" y="-15.0" />
+      <point x="239.0" y="210.0" />
+      <point x="166.66666666666669" y="210.0" />
+      <point x="27.666666666666686" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Desktop2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Laptop2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+      <point x="0.0" y="-15.0" />
+      <point x="48.0" y="55.0" />
+      <point x="130.33333333333334" y="55.0" />
+      <point x="-37.66666666666666" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Pad2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+      <point x="0.0" y="-15.0" />
+      <point x="278.5" y="55.0" />
+      <point x="205.66666666666666" y="55.0" />
+      <point x="37.66666666666666" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="158.5" y="170.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

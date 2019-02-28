@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="598.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Pad</node>
+    <node x="977.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Laptop</node>
+    <node x="451.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.HaseePad</node>
+    <node x="966.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.DellLaptop</node>
+    <node x="709.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.DellPad</node>
+    <node x="139.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.LenovoDesktop</node>
+    <node x="298.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.HaseeDesktop</node>
+    <node x="0.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.DellDesktop</node>
+    <node x="580.0" y="0.0">com.kevin.结构型模式.桥接模式.bridge.Computer</node>
+    <node x="1097.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.LenovoLaptop</node>
+    <node x="160.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Desktop</node>
+    <node x="577.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.LenovoPad</node>
+    <node x="821.0" y="160.0">com.kevin.结构型模式.桥接模式.bridge.HaseeLaptop</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.DellPad" target="com.kevin.结构型模式.桥接模式.bridge.Pad">
+      <point x="0.0" y="-15.0" />
+      <point x="755.0" y="135.0" />
+      <point x="656.3333333333334" y="135.0" />
+      <point x="23.33333333333333" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.LenovoLaptop" target="com.kevin.结构型模式.桥接模式.bridge.Laptop">
+      <point x="0.0" y="-15.0" />
+      <point x="1162.5" y="135.0" />
+      <point x="1051.1666666666667" y="135.0" />
+      <point x="29.66666666666667" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.DellLaptop" target="com.kevin.结构型模式.桥接模式.bridge.Laptop">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.LenovoPad" target="com.kevin.结构型模式.桥接模式.bridge.Pad">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.DellDesktop" target="com.kevin.结构型模式.桥接模式.bridge.Desktop">
+      <point x="0.0" y="-15.0" />
+      <point x="59.5" y="135.0" />
+      <point x="176.16666666666669" y="135.0" />
+      <point x="-32.333333333333336" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Desktop" target="com.kevin.结构型模式.桥接模式.bridge.Computer">
+      <point x="0.0" y="-15.0" />
+      <point x="208.5" y="55.0" />
+      <point x="597.6666666666666" y="55.0" />
+      <point x="-35.33333333333337" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Laptop" target="com.kevin.结构型模式.桥接模式.bridge.Computer">
+      <point x="0.0" y="-15.0" />
+      <point x="1021.5" y="55.0" />
+      <point x="668.3333333333334" y="55.0" />
+      <point x="35.33333333333337" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.LenovoDesktop" target="com.kevin.结构型模式.桥接模式.bridge.Desktop">
+      <point x="0.0" y="-15.0" />
+      <point x="7.105427357601002E-15" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.HaseeLaptop" target="com.kevin.结构型模式.桥接模式.bridge.Laptop">
+      <point x="0.0" y="-15.0" />
+      <point x="883.5" y="135.0" />
+      <point x="991.8333333333333" y="135.0" />
+      <point x="-29.666666666666668" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.HaseeDesktop" target="com.kevin.结构型模式.桥接模式.bridge.Desktop">
+      <point x="0.0" y="-15.0" />
+      <point x="364.5" y="135.0" />
+      <point x="240.83333333333337" y="135.0" />
+      <point x="32.33333333333334" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.HaseePad" target="com.kevin.结构型模式.桥接模式.bridge.Pad">
+      <point x="0.0" y="-15.0" />
+      <point x="504.0" y="135.0" />
+      <point x="609.6666666666666" y="135.0" />
+      <point x="-23.333333333333332" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Pad" target="com.kevin.结构型模式.桥接模式.bridge.Computer">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8541666666666666" x="614.0" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

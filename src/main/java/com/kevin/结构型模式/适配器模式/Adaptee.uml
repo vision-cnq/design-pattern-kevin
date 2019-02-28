@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.结构型模式.适配器模式.adapter.Adaptee</OriginalElement>
+  <nodes>
+    <node x="0.035714285714277594" y="0.0">com.kevin.结构型模式.适配器模式.adapter.Adaptee</node>
+    <node x="47.5" y="103.0">com.kevin.结构型模式.适配器模式.adapter.Adapter2</node>
+    <node x="22.035714285714278" y="230.0">com.kevin.结构型模式.适配器模式.adapter.Test</node>
+    <node x="173.09821428571428" y="0.0">com.kevin.结构型模式.适配器模式.adapter.Target</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.结构型模式.适配器模式.adapter.Adapter2" target="com.kevin.结构型模式.适配器模式.adapter.Target">
+      <point x="61.0" y="-38.5" />
+      <point x="200.0" y="78.0" />
+      <point x="214.84821428571428" y="78.0" />
+      <point x="-41.75" y="26.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.适配器模式.adapter.Test" target="com.kevin.结构型模式.适配器模式.adapter.Adaptee">
+      <point x="-21.875" y="-38.0" />
+      <point x="87.66071428571428" y="200.0" />
+      <point x="37.0" y="200.0" />
+      <point x="37.0" y="78.0" />
+      <point x="55.91071428571428" y="78.0" />
+      <point x="-18.625" y="26.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.适配器模式.adapter.Test" target="com.kevin.结构型模式.适配器模式.adapter.Adapter2">
+      <point x="21.875" y="-38.0" />
+      <point x="131.41071428571428" y="210.0" />
+      <point x="139.0" y="210.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.适配器模式.adapter.Test" target="com.kevin.结构型模式.适配器模式.adapter.Target">
+      <point x="65.625" y="-38.0" />
+      <point x="175.16071428571428" y="210.0" />
+      <point x="284.7767857142857" y="210.0" />
+      <point x="284.7767857142857" y="78.0" />
+      <point x="298.3482142857143" y="78.0" />
+      <point x="41.75" y="26.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.适配器模式.adapter.Adapter2" target="com.kevin.结构型模式.适配器模式.adapter.Adaptee">
+      <point x="-61.0" y="-38.5" />
+      <point x="78.0" y="78.0" />
+      <point x="93.16071428571428" y="78.0" />
+      <point x="18.625" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="121.0" y="92.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
