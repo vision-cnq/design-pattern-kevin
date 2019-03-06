@@ -5,7 +5,7 @@ import java.lang.reflect.Proxy;
 /**
  * @author kevin
  * @version 1.0
- * @description     动态代理测试
+ * @description     测试动态代理模式
  * @createDate 2019/2/26
  */
 public class Test {

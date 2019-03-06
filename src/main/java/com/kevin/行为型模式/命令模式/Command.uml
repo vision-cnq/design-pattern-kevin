@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.行为型模式.命令模式.command.ConcreteCommand</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">com.kevin.行为型模式.命令模式.command.ConcreteCommand</node>
+    <node x="142.0" y="155.0">com.kevin.行为型模式.命令模式.command.Invoke</node>
+    <node x="0.0" y="155.0">com.kevin.行为型模式.命令模式.command.Receiver</node>
+    <node x="26.0" y="0.0">com.kevin.行为型模式.命令模式.command.Command</node>
+    <node x="0.0" y="230.0">com.kevin.行为型模式.命令模式.command.Test</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.行为型模式.命令模式.command.ConcreteCommand" target="com.kevin.行为型模式.命令模式.command.Command">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="115.0" y="93.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

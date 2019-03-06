@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.行为型模式.中介者模式.mediator.Department</OriginalElement>
+  <nodes>
+    <node x="147.0" y="155.0">com.kevin.行为型模式.中介者模式.mediator.Test</node>
+    <node x="0.0" y="235.0">com.kevin.行为型模式.中介者模式.mediator.President</node>
+    <node x="96.5" y="0.0">com.kevin.行为型模式.中介者模式.mediator.Department</node>
+    <node x="0.0" y="155.0">com.kevin.行为型模式.中介者模式.mediator.Mediator</node>
+    <node x="220.0" y="80.0">com.kevin.行为型模式.中介者模式.mediator.Development</node>
+    <node x="110.0" y="80.0">com.kevin.行为型模式.中介者模式.mediator.Market</node>
+    <node x="0.0" y="80.0">com.kevin.行为型模式.中介者模式.mediator.Finacial</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.President" target="com.kevin.行为型模式.中介者模式.mediator.Mediator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Development" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+      <point x="0.0" y="-15.0" />
+      <point x="282.5" y="55.0" />
+      <point x="194.0" y="55.0" />
+      <point x="39.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Market" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Finacial" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+      <point x="0.0" y="-15.0" />
+      <point x="45.0" y="55.0" />
+      <point x="116.0" y="55.0" />
+      <point x="-39.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="173.0" y="133.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

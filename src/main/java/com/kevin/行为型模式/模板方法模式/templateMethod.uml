@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.行为型模式.模板方法模式.templateMethod.BankTemplateMethod</OriginalElement>
+  <nodes>
+    <node x="31.25" y="0.0">com.kevin.行为型模式.模板方法模式.templateMethod.BankTemplateMethod</node>
+    <node x="0.0" y="80.0">com.kevin.行为型模式.模板方法模式.templateMethod.DrawMoney</node>
+    <node x="82.5" y="160.0">com.kevin.行为型模式.模板方法模式.templateMethod.Test</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.行为型模式.模板方法模式.templateMethod.Test" target="com.kevin.行为型模式.模板方法模式.templateMethod.DrawMoney">
+      <point x="-24.0" y="-15.0" />
+      <point x="94.5" y="135.0" />
+      <point x="59.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.模板方法模式.templateMethod.DrawMoney" target="com.kevin.行为型模式.模板方法模式.templateMethod.BankTemplateMethod">
+      <point x="0.0" y="-15.0" />
+      <point x="59.0" y="55.0" />
+      <point x="60.75" y="55.0" />
+      <point x="-59.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.模板方法模式.templateMethod.Test" target="com.kevin.行为型模式.模板方法模式.templateMethod.BankTemplateMethod">
+      <point x="24.0" y="-15.0" />
+      <point x="142.5" y="135.0" />
+      <point x="139.5" y="135.0" />
+      <point x="139.5" y="55.0" />
+      <point x="178.75" y="55.0" />
+      <point x="59.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="88.5" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

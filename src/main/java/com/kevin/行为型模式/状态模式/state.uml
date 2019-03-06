@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.行为型模式.状态模式.state.BookedState</OriginalElement>
+  <nodes>
+    <node x="234.0" y="80.0">com.kevin.行为型模式.状态模式.state.BookedState</node>
+    <node x="112.0" y="80.0">com.kevin.行为型模式.状态模式.state.FreeState</node>
+    <node x="377.0" y="80.0">com.kevin.行为型模式.状态模式.state.CheckedInState</node>
+    <node x="124.5" y="0.0">com.kevin.行为型模式.状态模式.state.State</node>
+    <node x="0.0" y="80.0">com.kevin.行为型模式.状态模式.state.Context</node>
+    <node x="75.29166666666666" y="160.0">com.kevin.行为型模式.状态模式.state.Test</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.行为型模式.状态模式.state.FreeState" target="com.kevin.行为型模式.状态模式.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.状态模式.state.CheckedInState" target="com.kevin.行为型模式.状态模式.state.State">
+      <point x="-2.8421709430404007E-14" y="-15.0" />
+      <point x="446.0" y="50.0" />
+      <point x="193.8" y="50.0" />
+      <point x="30.80000000000001" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.状态模式.state.Test" target="com.kevin.行为型模式.状态模式.state.BookedState">
+      <point x="27.0" y="-15.0" />
+      <point x="138.29166666666666" y="140.0" />
+      <point x="295.5" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.状态模式.state.Context" target="com.kevin.行为型模式.状态模式.state.State">
+      <point x="23.0" y="-15.0" />
+      <point x="69.0" y="60.0" />
+      <point x="147.60000000000002" y="60.0" />
+      <point x="-15.399999999999977" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.状态模式.state.Test" target="com.kevin.行为型模式.状态模式.state.Context">
+      <point x="-27.0" y="-15.0" />
+      <point x="84.29166666666666" y="140.0" />
+      <point x="23.0" y="140.0" />
+      <point x="-23.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.状态模式.state.BookedState" target="com.kevin.行为型模式.状态模式.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="295.5" y="60.0" />
+      <point x="178.39999999999998" y="60.0" />
+      <point x="15.399999999999977" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.状态模式.state.Test" target="com.kevin.行为型模式.状态模式.state.FreeState">
+      <point x="9.0" y="-15.0" />
+      <point x="120.29166666666666" y="130.0" />
+      <point x="163.0" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="201.5" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

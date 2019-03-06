@@ -16,11 +16,14 @@ public class Test {
     public static void main(String[] args) {
         Test test = new Test();
         Adaptee a = new Adaptee();
-        //Target t = new Adapter();     // 类适配器
 
-        Target t = new Adapter2(a);     // 对象适配器
-
+        // 类适配器
+        Target t = new Adapter();
         test.test1(t);
+
+        // 对象适配器
+        Target t1 = new Adapter2(a);
+        test.test1(t1);
 
     }
 }

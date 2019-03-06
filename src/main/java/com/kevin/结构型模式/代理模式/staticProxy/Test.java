@@ -7,7 +7,7 @@ import com.kevin.结构型模式.代理模式.proxy.Star;
 /**
  * @author kevin
  * @version 1.0
- * @description     静态代理测试
+ * @description     测试静态代理模式
  * @createDate 2019/2/25
  */
 public class Test {

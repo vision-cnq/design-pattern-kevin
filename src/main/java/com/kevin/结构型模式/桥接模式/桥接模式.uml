@@ -3,51 +3,116 @@
   <ID>JAVA</ID>
   <OriginalElement>com.kevin.结构型模式.桥接模式.bridge.Computer2</OriginalElement>
   <nodes>
-    <node x="0.0" y="235.0">com.kevin.结构型模式.桥接模式.bridge.Hasee</node>
-    <node x="104.0" y="235.0">com.kevin.结构型模式.桥接模式.bridge.Dell</node>
-    <node x="97.5" y="155.0">com.kevin.结构型模式.桥接模式.bridge.Brand</node>
-    <node x="0.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Laptop2</node>
-    <node x="116.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Desktop2</node>
-    <node x="111.5" y="0.0">com.kevin.结构型模式.桥接模式.bridge.Computer2</node>
-    <node x="194.0" y="235.0">com.kevin.结构型模式.桥接模式.bridge.Lenovo</node>
-    <node x="240.0" y="80.0">com.kevin.结构型模式.桥接模式.bridge.Pad2</node>
+    <node x="0.0" y="100.0">com.kevin.结构型模式.桥接模式.bridge.Hasee</node>
+    <node x="104.0" y="100.0">com.kevin.结构型模式.桥接模式.bridge.Dell</node>
+    <node x="308.6663492063492" y="0.0">com.kevin.结构型模式.桥接模式.bridge.Brand</node>
+    <node x="390.3330158730158" y="210.0">com.kevin.结构型模式.桥接模式.bridge.Desktop2</node>
+    <node x="274.3330158730158" y="210.0">com.kevin.结构型模式.桥接模式.bridge.Laptop2</node>
+    <node x="285.79492063492063" y="290.0">com.kevin.结构型模式.桥接模式.bridge.Test</node>
+    <node x="194.0" y="100.0">com.kevin.结构型模式.桥接模式.bridge.Lenovo</node>
+    <node x="406.92376984126986" y="100.0">com.kevin.结构型模式.桥接模式.bridge.Computer2</node>
+    <node x="515.3330158730158" y="210.0">com.kevin.结构型模式.桥接模式.bridge.Pad2</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.kevin.结构型模式.桥接模式.bridge.Hasee" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
-      <point x="0.0" y="-15.0" />
-      <point x="42.0" y="210.0" />
-      <point x="111.33333333333333" y="210.0" />
-      <point x="-27.66666666666667" y="15.0" />
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Test" target="com.kevin.结构型模式.桥接模式.bridge.Lenovo">
+      <point x="-14.400000000000006" y="-15.0" />
+      <point x="307.3949206349206" y="260.0" />
+      <point x="239.0" y="260.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Laptop2" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
+      <point x="-32.0" y="-15.0" />
+      <point x="290.3330158730158" y="170.0" />
+      <point x="319.1" y="170.0" />
+      <point x="319.1" y="80.0" />
+      <point x="344.9788492063492" y="80.0" />
+      <point x="-5.1875" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Test" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+      <point x="28.80000000000001" y="-15.0" />
+      <point x="350.59492063492064" y="270.0" />
+      <point x="504.8330158730158" y="270.0" />
+      <point x="504.8330158730158" y="180.0" />
+      <point x="479.566626984127" y="180.0" />
+      <point x="16.142857142857167" y="15.0" />
     </edge>
     <edge source="com.kevin.结构型模式.桥接模式.bridge.Dell" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
       <point x="0.0" y="-15.0" />
-      <point x="0.0" y="15.0" />
+      <point x="139.0" y="60.0" />
+      <point x="324.2288492063492" y="60.0" />
+      <point x="-25.9375" y="15.0" />
     </edge>
     <edge source="com.kevin.结构型模式.桥接模式.bridge.Lenovo" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
       <point x="0.0" y="-15.0" />
-      <point x="239.0" y="210.0" />
-      <point x="166.66666666666669" y="210.0" />
-      <point x="27.666666666666686" y="15.0" />
+      <point x="239.0" y="70.0" />
+      <point x="334.6038492063492" y="70.0" />
+      <point x="-15.5625" y="15.0" />
     </edge>
-    <edge source="com.kevin.结构型模式.桥接模式.bridge.Desktop2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Computer2" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
+      <point x="28.25" y="-15.0" />
+      <point x="491.67376984126986" y="60.0" />
+      <point x="376.1038492063492" y="60.0" />
+      <point x="25.9375" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Test" target="com.kevin.结构型模式.桥接模式.bridge.Laptop2">
       <point x="0.0" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
-    <edge source="com.kevin.结构型模式.桥接模式.bridge.Laptop2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
-      <point x="0.0" y="-15.0" />
-      <point x="48.0" y="55.0" />
-      <point x="130.33333333333334" y="55.0" />
-      <point x="-37.66666666666666" y="15.0" />
-    </edge>
     <edge source="com.kevin.结构型模式.桥接模式.bridge.Pad2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+      <point x="-25.666666666666686" y="-15.0" />
+      <point x="528.1663492063492" y="170.0" />
+      <point x="495.70948412698414" y="170.0" />
+      <point x="32.28571428571428" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Desktop2" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
+      <point x="-34.66666666666666" y="-15.0" />
+      <point x="407.6663492063492" y="170.0" />
+      <point x="396.42376984126986" y="170.0" />
+      <point x="396.42376984126986" y="80.0" />
+      <point x="355.3538492063492" y="80.0" />
+      <point x="5.1875" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Hasee" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
       <point x="0.0" y="-15.0" />
-      <point x="278.5" y="55.0" />
-      <point x="205.66666666666666" y="55.0" />
-      <point x="37.66666666666666" y="15.0" />
+      <point x="42.0" y="50.0" />
+      <point x="313.8538492063492" y="50.0" />
+      <point x="-36.3125" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Test" target="com.kevin.结构型模式.桥接模式.bridge.Hasee">
+      <point x="-28.80000000000001" y="-15.0" />
+      <point x="292.9949206349206" y="270.0" />
+      <point x="42.0" y="270.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Desktop2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+      <point x="34.666666666666686" y="-15.0" />
+      <point x="476.99968253968257" y="190.0" />
+      <point x="463.42376984126986" y="190.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Laptop2" target="com.kevin.结构型模式.桥接模式.bridge.Computer2">
+      <point x="32.0" y="-15.0" />
+      <point x="354.3330158730158" y="190.0" />
+      <point x="431.1380555555556" y="190.0" />
+      <point x="-32.28571428571428" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Pad2" target="com.kevin.结构型模式.桥接模式.bridge.Brand">
+      <point x="25.666666666666686" y="-15.0" />
+      <point x="579.4996825396826" y="150.0" />
+      <point x="548.1737698412699" y="150.0" />
+      <point x="548.1737698412699" y="50.0" />
+      <point x="386.4788492063492" y="50.0" />
+      <point x="36.3125" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.桥接模式.bridge.Test" target="com.kevin.结构型模式.桥接模式.bridge.Desktop2">
+      <point x="14.399999999999977" y="-15.0" />
+      <point x="336.1949206349206" y="260.0" />
+      <point x="442.3330158730158" y="260.0" />
+      <point x="0.0" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="158.5" y="170.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="159.0" y="170.0" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.创建型模式.原型模式.prototype.Test4</OriginalElement>
+  <nodes>
+    <node x="222.5" y="80.0">com.kevin.创建型模式.原型模式.prototype.Sheep</node>
+    <node x="102.5" y="0.0">java.lang.Cloneable</node>
+    <node x="111.00000000000001" y="80.0">com.kevin.创建型模式.原型模式.prototype.Laptop</node>
+    <node x="0.0" y="80.0">com.kevin.创建型模式.原型模式.prototype.Sheep2</node>
+    <node x="248.0" y="155.0">com.kevin.创建型模式.原型模式.prototype.Test</node>
+    <node x="124.0" y="155.0">com.kevin.创建型模式.原型模式.prototype.Test3</node>
+    <node x="0.0" y="155.0">com.kevin.创建型模式.原型模式.prototype.Test2</node>
+    <node x="228.5" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.创建型模式.原型模式.prototype.Laptop" target="java.lang.Cloneable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.原型模式.prototype.Sheep" target="java.io.Serializable">
+      <point x="21.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.原型模式.prototype.Sheep2" target="java.lang.Cloneable">
+      <point x="0.0" y="-15.0" />
+      <point x="45.5" y="55.0" />
+      <point x="120.16666666666666" y="55.0" />
+      <point x="-35.33333333333334" y="15.0" />
+    </edge>
+    <edge source="com.kevin.创建型模式.原型模式.prototype.Sheep" target="java.lang.Cloneable">
+      <point x="-21.0" y="-15.0" />
+      <point x="243.5" y="55.0" />
+      <point x="190.83333333333334" y="55.0" />
+      <point x="35.33333333333334" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="193.0" y="95.0" />
+  <SelectedNodes>
+    <node>com.kevin.创建型模式.原型模式.prototype.Test2</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

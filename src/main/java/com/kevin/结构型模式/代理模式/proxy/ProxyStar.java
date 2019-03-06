@@ -1,7 +1,5 @@
 package com.kevin.结构型模式.代理模式.proxy;
 
-import com.sun.tracing.dtrace.ArgsAttributes;
-
 /**
  * @author kevin
  * @version 1.0

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.结构型模式.外观模式.facade.Computer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.kevin.结构型模式.外观模式.facade.Memory</node>
+    <node x="117.0" y="0.0">com.kevin.结构型模式.外观模式.facade.CPU</node>
+    <node x="100.0" y="80.0">com.kevin.结构型模式.外观模式.facade.Computer</node>
+    <node x="209.0" y="0.0">com.kevin.结构型模式.外观模式.facade.Disk</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.结构型模式.外观模式.facade.Computer" target="com.kevin.结构型模式.外观模式.facade.Memory">
+      <point x="-44.16666666666667" y="-15.0" />
+      <point x="108.83333333333331" y="60.0" />
+      <point x="24.25" y="60.0" />
+      <point x="-24.25" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.外观模式.facade.Computer" target="com.kevin.结构型模式.外观模式.facade.Disk">
+      <point x="44.166666666666686" y="-15.0" />
+      <point x="197.16666666666669" y="60.0" />
+      <point x="263.75" y="60.0" />
+      <point x="18.25" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.外观模式.facade.Computer" target="com.kevin.结构型模式.外观模式.facade.CPU">
+      <point x="-8.833333333333314" y="-15.0" />
+      <point x="144.16666666666669" y="60.0" />
+      <point x="135.0" y="60.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="90.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

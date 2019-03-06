@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.结构型模式.装饰模式.AICar</OriginalElement>
+  <nodes>
+    <node x="92.00000000000001" y="80.0">com.kevin.结构型模式.装饰模式.SuperCar</node>
+    <node x="103.00000000000001" y="160.0">com.kevin.结构型模式.装饰模式.AICar</node>
+    <node x="159.5" y="0.0">com.kevin.结构型模式.装饰模式.ICar</node>
+    <node x="203.0" y="160.0">com.kevin.结构型模式.装饰模式.WaterCar</node>
+    <node x="0.0" y="160.0">com.kevin.结构型模式.装饰模式.FlyCar</node>
+    <node x="214.0" y="80.0">com.kevin.结构型模式.装饰模式.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.结构型模式.装饰模式.AICar" target="com.kevin.结构型模式.装饰模式.SuperCar">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.装饰模式.Car" target="com.kevin.结构型模式.装饰模式.ICar">
+      <point x="0.0" y="-15.0" />
+      <point x="248.0" y="55.0" />
+      <point x="213.5" y="55.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.装饰模式.WaterCar" target="com.kevin.结构型模式.装饰模式.SuperCar">
+      <point x="0.0" y="-15.0" />
+      <point x="254.5" y="135.0" />
+      <point x="177.0" y="135.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.装饰模式.FlyCar" target="com.kevin.结构型模式.装饰模式.SuperCar">
+      <point x="0.0" y="-15.0" />
+      <point x="41.5" y="135.0" />
+      <point x="109.00000000000001" y="135.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.装饰模式.SuperCar" target="com.kevin.结构型模式.装饰模式.ICar">
+      <point x="0.0" y="-15.0" />
+      <point x="143.0" y="55.0" />
+      <point x="177.5" y="55.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="153.0" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kevin.行为型模式.观察者模式.observer.ConcreteSubject</OriginalElement>
+  <nodes>
+    <node x="65.5" y="160.0">com.kevin.行为型模式.观察者模式.observer.ConcreteSubject</node>
+    <node x="70.0" y="320.0">com.kevin.行为型模式.观察者模式.observer.Test</node>
+    <node x="29.955833333333324" y="0.0">com.kevin.行为型模式.观察者模式.observer.Observer</node>
+    <node x="46.15583333333333" y="80.0">com.kevin.行为型模式.观察者模式.observer.Subject</node>
+    <node x="0.0" y="240.0">com.kevin.行为型模式.观察者模式.observer.ObserverA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.Test" target="com.kevin.行为型模式.观察者模式.observer.ConcreteSubject">
+      <point x="27.0" y="-15.0" />
+      <point x="133.0" y="300.0" />
+      <point x="156.28333333333333" y="300.0" />
+      <point x="156.28333333333333" y="215.0" />
+      <point x="183.83333333333334" y="215.0" />
+      <point x="47.33333333333335" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.Observer" target="com.kevin.行为型模式.观察者模式.observer.Subject">
+      <point x="40.80000000000001" y="15.0" />
+      <point x="121.75583333333333" y="55.0" />
+      <point x="124.90583333333333" y="55.0" />
+      <point x="33.75" y="-15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.ObserverA" target="com.kevin.行为型模式.观察者模式.observer.Subject">
+      <point x="0.0" y="-15.0" />
+      <point x="54.99999999999999" y="135.0" />
+      <point x="68.65583333333333" y="135.0" />
+      <point x="-22.5" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.ConcreteSubject" target="com.kevin.行为型模式.观察者模式.observer.Subject">
+      <point x="0.0" y="-15.0" />
+      <point x="136.5" y="135.0" />
+      <point x="113.65583333333333" y="135.0" />
+      <point x="22.5" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.ObserverA" target="com.kevin.行为型模式.观察者模式.observer.ConcreteSubject">
+      <point x="36.66666666666666" y="-15.0" />
+      <point x="91.66666666666666" y="215.0" />
+      <point x="89.16666666666666" y="215.0" />
+      <point x="-47.33333333333334" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.ObserverA" target="com.kevin.行为型模式.观察者模式.observer.Observer">
+      <point x="-36.66666666666666" y="-15.0" />
+      <point x="18.333333333333343" y="215.0" />
+      <point x="30.78333333333333" y="215.0" />
+      <point x="30.78333333333333" y="55.0" />
+      <point x="40.15583333333333" y="55.0" />
+      <point x="-40.8" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.Test" target="com.kevin.行为型模式.观察者模式.observer.ObserverA">
+      <point x="-9.0" y="-15.0" />
+      <point x="97.0" y="290.0" />
+      <point x="82.5" y="290.0" />
+      <point x="27.5" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.观察者模式.observer.Subject" target="com.kevin.行为型模式.观察者模式.observer.Observer">
+      <point x="11.25" y="-15.0" />
+      <point x="102.40583333333333" y="55.0" />
+      <point x="101.35583333333332" y="55.0" />
+      <point x="20.400000000000006" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="113.5" y="132.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
