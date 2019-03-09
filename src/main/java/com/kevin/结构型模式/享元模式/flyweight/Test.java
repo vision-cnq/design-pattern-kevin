@@ -13,8 +13,7 @@ public class Test {
         // 颜色是内部状态，使用的是同一个对象
         ChessFlyWeight chess1 = ChessFlyWeightFactory.getChess("黑色");
         ChessFlyWeight chess2 = ChessFlyWeightFactory.getChess("黑色");
-        System.out.println(chess1);
-        System.out.println(chess2);
+        System.out.println("同一个对象: " + (chess1 == chess2));
 
         System.out.println("增加外部状态的处理...");
         chess1.display(new Coordinate(10,10));

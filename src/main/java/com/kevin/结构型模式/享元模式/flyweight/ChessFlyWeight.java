@@ -6,6 +6,7 @@ package com.kevin.结构型模式.享元模式.flyweight;
  * @description     享元类
  * @createDate 2019/3/2
  */
+// FlyWeight抽象享元类，声明公共方法
 public interface ChessFlyWeight {
 
     void setColor(String c);
@@ -13,7 +14,7 @@ public interface ChessFlyWeight {
     void display(Coordinate c);
 }
 
-// 内部状态
+// ConcreteFlyWeight具体享元类，内部状态
 class ConcreteChess implements ChessFlyWeight {
 
     private String color;

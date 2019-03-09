@@ -1,10 +1,5 @@
 package com.kevin.创建型模式.单例模式.singleton;
 
-import com.kevin.创建型模式.单例模式.singleton.SingletonDemo2;
-import com.kevin.创建型模式.单例模式.singleton.SingletonDemo3;
-import com.kevin.创建型模式.单例模式.singleton.SingletonDemo4;
-import com.kevin.创建型模式.单例模式.singleton.SingletonDemo5;
-
 /**
  * @author kevin
  * @version 1.0

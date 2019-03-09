@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @author kevin
  * @version 1.0
- * @description     享元工厂类
+ * @description     FlyWeightFactory享元工厂类，创建并管理享元对象
  * @createDate 2019/3/3
  */
 public class ChessFlyWeightFactory {

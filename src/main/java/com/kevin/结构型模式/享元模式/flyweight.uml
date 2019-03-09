@@ -3,47 +3,74 @@
   <ID>JAVA</ID>
   <OriginalElement>com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeight</OriginalElement>
   <nodes>
-    <node x="44.5625" y="240.0">com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeightFactory</node>
-    <node x="18.4375" y="0.0">com.kevin.结构型模式.享元模式.flyweight.Coordinate</node>
-    <node x="78.96875" y="80.0">com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeight</node>
-    <node x="0.0" y="160.0">com.kevin.结构型模式.享元模式.flyweight.ConcreteChess</node>
+    <node x="83.4657738095238" y="470.0">com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeightFactory</node>
+    <node x="172.2782738095238" y="0.0">com.kevin.结构型模式.享元模式.flyweight.Coordinate</node>
+    <node x="140.4190476190476" y="172.0">com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeight</node>
+    <node x="0.0" y="321.0">com.kevin.结构型模式.享元模式.flyweight.ConcreteChess</node>
+    <node x="227.27083333333334" y="573.0">com.kevin.结构型模式.享元模式.flyweight.Test</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeightFactory" target="com.kevin.结构型模式.享元模式.flyweight.ConcreteChess">
-      <point x="-67.5" y="-15.0" />
-      <point x="0.0" y="15.0" />
+    <edge source="com.kevin.结构型模式.享元模式.flyweight.Test" target="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeightFactory">
+      <point x="-58.333333333333314" y="-26.5" />
+      <point x="256.4375" y="548.0" />
+      <point x="211.9657738095238" y="548.0" />
+      <point x="0.0" y="26.5" />
     </edge>
-    <edge source="com.kevin.结构型模式.享元模式.flyweight.ConcreteChess" target="com.kevin.结构型模式.享元模式.flyweight.Coordinate">
-      <point x="-33.5" y="-15.0" />
-      <point x="33.5" y="55.0" />
-      <point x="46.6875" y="55.0" />
-      <point x="-28.25" y="15.0" />
+    <edge source="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeightFactory" target="com.kevin.结构型模式.享元模式.flyweight.ConcreteChess">
+      <point x="-96.375" y="-26.5" />
+      <point x="115.5907738095238" y="445.0" />
+      <point x="105.5" y="445.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.享元模式.flyweight.Test" target="com.kevin.结构型模式.享元模式.flyweight.Coordinate">
+      <point x="58.33333333333332" y="-26.5" />
+      <point x="373.10416666666663" y="548.0" />
+      <point x="363.6065476190476" y="548.0" />
+      <point x="363.6065476190476" y="147.0" />
+      <point x="292.2782738095238" y="147.0" />
+      <point x="48.0" y="61.0" />
     </edge>
     <edge source="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeight" target="com.kevin.结构型模式.享元模式.flyweight.Coordinate">
-      <point x="0.0" y="-15.0" />
-      <point x="147.96875" y="55.0" />
-      <point x="103.1875" y="55.0" />
-      <point x="28.25" y="15.0" />
+      <point x="0.0" y="-49.5" />
+      <point x="245.9190476190476" y="147.0" />
+      <point x="244.2782738095238" y="147.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.享元模式.flyweight.ConcreteChess" target="com.kevin.结构型模式.享元模式.flyweight.Coordinate">
+      <point x="-52.75" y="-49.5" />
+      <point x="52.75" y="147.0" />
+      <point x="196.2782738095238" y="147.0" />
+      <point x="-48.0" y="61.0" />
     </edge>
     <edge source="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeightFactory" target="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeight">
-      <point x="-22.5" y="-15.0" />
-      <point x="112.0625" y="215.0" />
-      <point x="144.5" y="215.0" />
-      <point x="144.5" y="140.0" />
-      <point x="130.71875" y="140.0" />
-      <point x="-17.25" y="15.0" />
+      <point x="32.125" y="-26.5" />
+      <point x="244.0907738095238" y="445.0" />
+      <point x="232.5" y="445.0" />
+      <point x="232.5" y="296.0" />
+      <point x="245.9190476190476" y="296.0" />
+      <point x="0.0" y="49.5" />
     </edge>
     <edge source="com.kevin.结构型模式.享元模式.flyweight.ConcreteChess" target="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeight">
-      <point x="33.5" y="-15.0" />
-      <point x="100.5" y="140.0" />
-      <point x="96.21875" y="140.0" />
-      <point x="-51.75" y="15.0" />
+      <point x="52.75" y="-49.5" />
+      <point x="158.25" y="296.0" />
+      <point x="161.51904761904763" y="296.0" />
+      <point x="-84.4" y="49.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.享元模式.flyweight.Test" target="com.kevin.结构型模式.享元模式.flyweight.ChessFlyWeight">
+      <point x="0.0" y="-26.5" />
+      <point x="314.7708333333333" y="548.0" />
+      <point x="350.9657738095238" y="548.0" />
+      <point x="350.9657738095238" y="296.0" />
+      <point x="330.3190476190476" y="296.0" />
+      <point x="84.39999999999998" y="49.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="115.0" y="130.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="201.5" y="313.0" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

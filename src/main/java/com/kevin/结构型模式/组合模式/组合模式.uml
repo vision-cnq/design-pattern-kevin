@@ -1,44 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>com.kevin.结构型模式.组合模式.Leaf</OriginalElement>
+  <OriginalElement />
   <nodes>
-    <node x="235.0" y="80.0">com.kevin.结构型模式.组合模式.VideoFile</node>
-    <node x="356.0" y="80.0">com.kevin.结构型模式.组合模式.Folder</node>
-    <node x="111.0" y="80.0">com.kevin.结构型模式.组合模式.ImageFile</node>
-    <node x="166.75" y="0.0">com.kevin.结构型模式.组合模式.AbstractFile</node>
-    <node x="0.0" y="80.0">com.kevin.结构型模式.组合模式.TextFile</node>
+    <node x="0.0" y="147.5">com.kevin.结构型模式.组合模式.composite.TextFile</node>
+    <node x="169.99999999999997" y="113.0">com.kevin.结构型模式.组合模式.composite.Folder</node>
+    <node x="406.0" y="147.5">com.kevin.结构型模式.组合模式.composite.ImageFile</node>
+    <node x="274.1224489795918" y="0.0">com.kevin.结构型模式.组合模式.composite.AbstractFile</node>
+    <node x="246.19387755102036" y="285.0">com.kevin.结构型模式.组合模式.composite.Test</node>
+    <node x="576.0" y="147.5">com.kevin.结构型模式.组合模式.composite.VideoFile</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.kevin.结构型模式.组合模式.Folder" target="com.kevin.结构型模式.组合模式.AbstractFile">
-      <point x="0.0" y="-15.0" />
-      <point x="398.5" y="50.0" />
-      <point x="267.375" y="50.0" />
-      <point x="43.125" y="15.0" />
+    <edge source="com.kevin.结构型模式.组合模式.composite.VideoFile" target="com.kevin.结构型模式.组合模式.composite.AbstractFile">
+      <point x="0.0" y="-26.5" />
+      <point x="651.0" y="83.0" />
+      <point x="391.9795918367347" y="83.0" />
+      <point x="42.85714285714289" y="26.5" />
     </edge>
-    <edge source="com.kevin.结构型模式.组合模式.ImageFile" target="com.kevin.结构型模式.组合模式.AbstractFile">
-      <point x="0.0" y="-15.0" />
-      <point x="163.0" y="60.0" />
-      <point x="209.875" y="60.0" />
-      <point x="-14.375" y="15.0" />
+    <edge source="com.kevin.结构型模式.组合模式.composite.Folder" target="com.kevin.结构型模式.组合模式.composite.AbstractFile">
+      <point x="-72.0" y="-61.0" />
+      <point x="205.99999999999997" y="83.0" />
+      <point x="306.2653061224489" y="83.0" />
+      <point x="-42.85714285714283" y="26.5" />
     </edge>
-    <edge source="com.kevin.结构型模式.组合模式.VideoFile" target="com.kevin.结构型模式.组合模式.AbstractFile">
-      <point x="0.0" y="-15.0" />
-      <point x="285.5" y="60.0" />
-      <point x="238.625" y="60.0" />
-      <point x="14.375" y="15.0" />
+    <edge source="com.kevin.结构型模式.组合模式.composite.ImageFile" target="com.kevin.结构型模式.组合模式.composite.AbstractFile">
+      <point x="0.0" y="-26.5" />
+      <point x="481.0" y="93.0" />
+      <point x="370.55102040816325" y="93.0" />
+      <point x="21.428571428571445" y="26.5" />
     </edge>
-    <edge source="com.kevin.结构型模式.组合模式.TextFile" target="com.kevin.结构型模式.组合模式.AbstractFile">
-      <point x="0.0" y="-15.0" />
-      <point x="45.5" y="50.0" />
-      <point x="181.125" y="50.0" />
-      <point x="-43.125" y="15.0" />
+    <edge source="com.kevin.结构型模式.组合模式.composite.Test" target="com.kevin.结构型模式.组合模式.composite.AbstractFile">
+      <point x="70.0" y="-26.5" />
+      <point x="403.69387755102036" y="265.0" />
+      <point x="736.5" y="265.0" />
+      <point x="736.5" y="73.0" />
+      <point x="413.40816326530614" y="73.0" />
+      <point x="64.28571428571433" y="26.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.组合模式.composite.Test" target="com.kevin.结构型模式.组合模式.composite.TextFile">
+      <point x="-70.0" y="-26.5" />
+      <point x="263.69387755102036" y="265.0" />
+      <point x="75.0" y="265.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.组合模式.composite.Test" target="com.kevin.结构型模式.组合模式.composite.Folder">
+      <point x="-35.0" y="-26.5" />
+      <point x="298.69387755102036" y="255.0" />
+      <point x="223.99999999999997" y="255.0" />
+      <point x="-54.0" y="61.0" />
+    </edge>
+    <edge source="com.kevin.结构型模式.组合模式.composite.Test" target="com.kevin.结构型模式.组合模式.composite.ImageFile">
+      <point x="35.0" y="-26.5" />
+      <point x="368.69387755102036" y="255.0" />
+      <point x="481.0" y="255.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.kevin.结构型模式.组合模式.composite.TextFile" target="com.kevin.结构型模式.组合模式.composite.AbstractFile">
+      <point x="0.0" y="-26.5" />
+      <point x="75.0" y="73.0" />
+      <point x="284.8367346938775" y="73.0" />
+      <point x="-64.28571428571428" y="26.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.7000000000000006" x="226.0" y="99.99999999999997" />
-  <SelectedNodes />
-  <Categories />
+  <settings layout="Hierarchic Group" zoom="1.0" x="368.5" y="169.0" />
+  <SelectedNodes>
+    <node>com.kevin.结构型模式.组合模式.composite.AbstractFile</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

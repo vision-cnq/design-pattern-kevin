@@ -25,6 +25,5 @@ public class Test {
         WaterCar waterCar1 = new WaterCar(new FlyCar(car));
         waterCar1.move();
 
-
     }
 }

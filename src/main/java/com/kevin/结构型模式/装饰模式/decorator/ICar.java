@@ -6,18 +6,10 @@ package com.kevin.结构型模式.装饰模式.decorator;
  * @description     抽象组件
  * @createDate 2019/3/2
  */
+// Component抽象构件角色（车）
 public interface ICar {
 
     void move();
-}
-
-// ConcreteComponent具体构建角色（真实对象）
-class Car implements ICar{
-
-    @Override
-    public void move() {
-        System.out.println("陆地上跑！");
-    }
 }
 
 // Decorator装饰角色
@@ -34,6 +26,15 @@ class SuperCar implements ICar{
     }
 }
 
+// ConcreteComponent具体构建角色（真实对象）
+class Car implements ICar{
+
+    @Override
+    public void move() {
+        System.out.println("陆地行驶！");
+    }
+}
+
 // ConcreteComponent具体装饰角色
 class FlyCar extends SuperCar {
 
@@ -42,7 +43,7 @@ class FlyCar extends SuperCar {
     }
 
     public void fly(){
-        System.out.println("天上飞");
+        System.out.println("天上行驶");
     }
 
     @Override
@@ -61,7 +62,7 @@ class WaterCar extends SuperCar {
     }
 
     public void swim(){
-        System.out.println("水上游");
+        System.out.println("水上行驶");
     }
 
     @Override
@@ -80,7 +81,7 @@ class AICar extends SuperCar {
     }
 
     public void autoMove(){
-        System.out.println("自动跑");
+        System.out.println("自动行驶");
     }
 
     @Override
