@@ -17,7 +17,9 @@
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="115.0" y="93.0" />
-  <SelectedNodes />
+  <SelectedNodes>
+    <node>com.kevin.行为型模式.命令模式.command.ConcreteCommand</node>
+  </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

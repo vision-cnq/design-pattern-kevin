@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @author kevin
  * @version 1.0
- * @description
+ * @description     总经理类
  * @createDate 2019/3/3
  */
 public class President implements Mediator {

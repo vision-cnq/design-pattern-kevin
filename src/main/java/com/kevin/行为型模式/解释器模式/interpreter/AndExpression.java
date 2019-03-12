@@ -3,7 +3,7 @@ package com.kevin.行为型模式.解释器模式.interpreter;
 /**
  * @author kevin
  * @version 1.0
- * @description
+ * @description     操作符，非终结表达式
  * @createDate 2019/3/3
  */
 public class AndExpression implements Expression{

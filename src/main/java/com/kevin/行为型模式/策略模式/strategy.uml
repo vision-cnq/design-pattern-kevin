@@ -3,35 +3,35 @@
   <ID>JAVA</ID>
   <OriginalElement>com.kevin.行为型模式.策略模式.strategy.Context</OriginalElement>
   <nodes>
-    <node x="787.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.OldCustomerFewStrategy</node>
-    <node x="389.0" y="0.0">com.kevin.行为型模式.策略模式.strategy.Strategy</node>
-    <node x="332.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.NewCustomerManyStrategy</node>
-    <node x="562.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.OldCustomerManyStrategy</node>
-    <node x="112.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.NewCustomerFewStrategy</node>
-    <node x="339.53125000000006" y="170.0">com.kevin.行为型模式.策略模式.strategy.Test</node>
+    <node x="384.0" y="0.0">com.kevin.行为型模式.策略模式.strategy.Strategy</node>
+    <node x="112.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.OldCustomerFewStrategy</node>
+    <node x="327.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.NewCustomerManyStrategy</node>
+    <node x="557.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.NewCustomerFewStrategy</node>
+    <node x="777.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.OldCustomerManyStrategy</node>
+    <node x="432.96875" y="170.0">com.kevin.行为型模式.策略模式.strategy.Test</node>
     <node x="0.0" y="90.0">com.kevin.行为型模式.策略模式.strategy.Context</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.kevin.行为型模式.策略模式.strategy.Test" target="com.kevin.行为型模式.策略模式.strategy.Strategy">
       <point x="27.0" y="-15.0" />
-      <point x="402.53125000000006" y="150.0" />
+      <point x="495.96875" y="150.0" />
       <point x="992.5" y="150.0" />
       <point x="992.5" y="50.0" />
-      <point x="478.1428571428571" y="50.0" />
+      <point x="473.1428571428571" y="50.0" />
       <point x="41.14285714285711" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.策略模式.strategy.Context" target="com.kevin.行为型模式.策略模式.strategy.Strategy">
+      <point x="23.0" y="-15.0" />
+      <point x="69.0" y="60.0" />
+      <point x="404.57142857142856" y="60.0" />
+      <point x="-27.428571428571445" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.策略模式.strategy.Test" target="com.kevin.行为型模式.策略模式.strategy.Context">
       <point x="-27.0" y="-15.0" />
-      <point x="348.53125000000006" y="150.0" />
+      <point x="441.96875" y="150.0" />
       <point x="23.0" y="150.0" />
       <point x="-23.0" y="15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.策略模式.strategy.Context" target="com.kevin.行为型模式.策略模式.strategy.Strategy">
-      <point x="-23.0" y="-15.0" />
-      <point x="23.0" y="50.0" />
-      <point x="395.8571428571429" y="50.0" />
-      <point x="-41.14285714285711" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.策略模式.strategy.NewCustomerManyStrategy" target="com.kevin.行为型模式.策略模式.strategy.Strategy">
       <point x="0.0" y="-15.0" />
@@ -39,30 +39,30 @@
     </edge>
     <edge source="com.kevin.行为型模式.策略模式.strategy.Test" target="com.kevin.行为型模式.策略模式.strategy.OldCustomerManyStrategy">
       <point x="9.0" y="-15.0" />
-      <point x="384.53125000000006" y="140.0" />
-      <point x="664.5" y="140.0" />
+      <point x="477.96875" y="140.0" />
+      <point x="879.5" y="140.0" />
       <point x="0.0" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.策略模式.strategy.NewCustomerFewStrategy" target="com.kevin.行为型模式.策略模式.strategy.Strategy">
       <point x="0.0" y="-15.0" />
-      <point x="212.0" y="70.0" />
-      <point x="423.28571428571433" y="70.0" />
-      <point x="-13.714285714285666" y="15.0" />
+      <point x="657.0" y="70.0" />
+      <point x="445.71428571428567" y="70.0" />
+      <point x="13.714285714285666" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.策略模式.strategy.OldCustomerManyStrategy" target="com.kevin.行为型模式.策略模式.strategy.Strategy">
       <point x="0.0" y="-15.0" />
-      <point x="664.5" y="70.0" />
-      <point x="450.71428571428567" y="70.0" />
-      <point x="13.714285714285666" y="15.0" />
+      <point x="879.5" y="60.0" />
+      <point x="459.42857142857144" y="60.0" />
+      <point x="27.428571428571445" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.策略模式.strategy.OldCustomerFewStrategy" target="com.kevin.行为型模式.策略模式.strategy.Strategy">
       <point x="0.0" y="-15.0" />
-      <point x="884.5" y="60.0" />
-      <point x="464.42857142857144" y="60.0" />
-      <point x="27.428571428571445" y="15.0" />
+      <point x="209.5" y="70.0" />
+      <point x="418.28571428571433" y="70.0" />
+      <point x="-13.714285714285666" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="435.0" y="92.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="726.0" y="121.5" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>

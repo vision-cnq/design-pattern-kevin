@@ -31,8 +31,10 @@ public class Test {
         };
         btm3.process();
 
-    }}
+    }
+}
 
+// 定义普通类继承BankTemplateMethod并实现业务逻辑
 class DrawMoney extends BankTemplateMethod {
 
     @Override

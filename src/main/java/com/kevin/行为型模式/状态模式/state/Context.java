@@ -7,6 +7,7 @@ package com.kevin.行为型模式.状态模式.state;
  * 上下文
  * @createDate 2019/3/4
  */
+// 环境类
 public class Context {
 
     // 如果是银行系统，这个Context类就是账号，根据金额不同，切换不同的状态

@@ -6,6 +6,7 @@ package com.kevin.行为型模式.命令模式.command;
  * @description
  * @createDate 2019/3/3
  */
+// Command统一的命令接口
 public interface Command {
 
     // 这个方法是一个返回结果为空的方法
@@ -13,6 +14,7 @@ public interface Command {
     void execute();
 }
 
+//ConcreteCommand实现Command接口，用来执行命令
 class ConcreteCommand implements Command {
 
     private Receiver receiver;  // 命令真正的执行者

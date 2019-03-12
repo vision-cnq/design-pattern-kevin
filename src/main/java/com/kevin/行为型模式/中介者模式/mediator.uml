@@ -3,35 +3,97 @@
   <ID>JAVA</ID>
   <OriginalElement>com.kevin.行为型模式.中介者模式.mediator.Department</OriginalElement>
   <nodes>
-    <node x="147.0" y="155.0">com.kevin.行为型模式.中介者模式.mediator.Test</node>
-    <node x="0.0" y="235.0">com.kevin.行为型模式.中介者模式.mediator.President</node>
-    <node x="96.5" y="0.0">com.kevin.行为型模式.中介者模式.mediator.Department</node>
-    <node x="0.0" y="155.0">com.kevin.行为型模式.中介者模式.mediator.Mediator</node>
-    <node x="220.0" y="80.0">com.kevin.行为型模式.中介者模式.mediator.Development</node>
-    <node x="110.0" y="80.0">com.kevin.行为型模式.中介者模式.mediator.Market</node>
-    <node x="0.0" y="80.0">com.kevin.行为型模式.中介者模式.mediator.Finacial</node>
+    <node x="169.12202380952382" y="300.0">com.kevin.行为型模式.中介者模式.mediator.Test</node>
+    <node x="366.0" y="200.0">com.kevin.行为型模式.中介者模式.mediator.President</node>
+    <node x="266.66666666666663" y="0.0">com.kevin.行为型模式.中介者模式.mediator.Department</node>
+    <node x="153.12499999999997" y="90.0">com.kevin.行为型模式.中介者模式.mediator.Mediator</node>
+    <node x="220.99999999999997" y="200.0">com.kevin.行为型模式.中介者模式.mediator.Development</node>
+    <node x="0.0" y="200.0">com.kevin.行为型模式.中介者模式.mediator.Market</node>
+    <node x="109.99999999999997" y="200.0">com.kevin.行为型模式.中介者模式.mediator.Finacial</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.kevin.行为型模式.中介者模式.mediator.President" target="com.kevin.行为型模式.中介者模式.mediator.Mediator">
-      <point x="0.0" y="-15.0" />
-      <point x="0.0" y="15.0" />
+      <point x="-38.25" y="-15.0" />
+      <point x="378.75" y="160.0" />
+      <point x="248.74999999999997" y="160.0" />
+      <point x="44.625" y="15.0" />
     </edge>
-    <edge source="com.kevin.行为型模式.中介者模式.mediator.Development" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Finacial" target="com.kevin.行为型模式.中介者模式.mediator.Mediator">
       <point x="0.0" y="-15.0" />
-      <point x="282.5" y="55.0" />
-      <point x="194.0" y="55.0" />
-      <point x="39.0" y="15.0" />
+      <point x="154.99999999999997" y="170.0" />
+      <point x="184.99999999999997" y="170.0" />
+      <point x="-19.125" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Market" target="com.kevin.行为型模式.中介者模式.mediator.Mediator">
+      <point x="30.0" y="-15.0" />
+      <point x="75.0" y="160.0" />
+      <point x="172.24999999999997" y="160.0" />
+      <point x="-31.875" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.中介者模式.mediator.Market" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+      <point x="-30.0" y="-15.0" />
+      <point x="15.0" y="140.0" />
+      <point x="49.337159863945544" y="140.0" />
+      <point x="49.337159863945544" y="50.0" />
+      <point x="275.0238095238095" y="50.0" />
+      <point x="-50.14285714285714" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Test" target="com.kevin.行为型模式.中介者模式.mediator.Finacial">
+      <point x="-4.500000000000028" y="-15.0" />
+      <point x="200.6220238095238" y="250.0" />
+      <point x="177.49999999999997" y="250.0" />
+      <point x="22.5" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Test" target="com.kevin.行为型模式.中介者模式.mediator.Development">
+      <point x="13.499999999999972" y="-15.0" />
+      <point x="218.6220238095238" y="260.0" />
+      <point x="252.24999999999997" y="260.0" />
+      <point x="-31.25" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Development" target="com.kevin.行为型模式.中介者模式.mediator.Mediator">
       <point x="0.0" y="-15.0" />
+      <point x="283.5" y="170.0" />
+      <point x="235.99999999999997" y="170.0" />
+      <point x="31.875" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Test" target="com.kevin.行为型模式.中介者模式.mediator.Mediator">
+      <point x="4.499999999999972" y="-15.0" />
+      <point x="6.375" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Test" target="com.kevin.行为型模式.中介者模式.mediator.Market">
+      <point x="-31.50000000000003" y="-15.0" />
+      <point x="173.6220238095238" y="280.0" />
+      <point x="22.5" y="280.0" />
+      <point x="-22.5" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.President" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+      <point x="12.75" y="-15.0" />
+      <point x="429.75" y="60.0" />
+      <point x="358.5952380952381" y="60.0" />
+      <point x="33.42857142857139" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Development" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+      <point x="41.66666666666668" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
-    <edge source="com.kevin.行为型模式.中介者模式.mediator.Finacial" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Test" target="com.kevin.行为型模式.中介者模式.mediator.President">
+      <point x="31.49999999999997" y="-15.0" />
+      <point x="236.6220238095238" y="280.0" />
+      <point x="417.0" y="280.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Mediator" target="com.kevin.行为型模式.中介者模式.mediator.Department">
       <point x="0.0" y="-15.0" />
-      <point x="45.0" y="55.0" />
-      <point x="116.0" y="55.0" />
-      <point x="-39.0" y="15.0" />
+      <point x="204.12499999999997" y="70.0" />
+      <point x="308.45238095238096" y="70.0" />
+      <point x="-16.714285714285722" y="15.0" />
+    </edge>
+    <edge source="com.kevin.行为型模式.中介者模式.mediator.Finacial" target="com.kevin.行为型模式.中介者模式.mediator.Department">
+      <point x="-30.0" y="-15.0" />
+      <point x="125.0" y="60.0" />
+      <point x="291.73809523809524" y="60.0" />
+      <point x="-33.42857142857143" y="15.0" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="173.0" y="133.0" />
