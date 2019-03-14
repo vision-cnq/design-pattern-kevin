@@ -6,7 +6,7 @@ import java.util.Observer;
 /**
  * @author kevin
  * @version 1.0
- * @description     实际观察者
+ * @description     具体观察者
  * @createDate 2019/3/4
  */
 public class ObserverA implements Observer {

@@ -3,7 +3,7 @@ package com.kevin.行为型模式.观察者模式.observer;
 /**
  * @author kevin
  * @version 1.0
- * @description     实际观察者
+ * @description     具体观察者
  * @createDate 2019/3/4
  */
 public class ObserverA implements Observer{

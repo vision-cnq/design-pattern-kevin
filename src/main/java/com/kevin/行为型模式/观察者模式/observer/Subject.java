@@ -6,30 +6,18 @@ import java.util.List;
 /**
  * @author kevin
  * @version 1.0
- * @description     主题对象
+ * @description     抽象主题
  * @createDate 2019/3/4
  */
-public class Subject {
-
-    // 所有的观察者对象存放点
-    protected List<Observer> list = new ArrayList<Observer>();
+public interface Subject {
 
     // 新增观察者对象
-    public void registerObserver(Observer observer){
-        list.add(observer);
-    }
+    public void registerObserver(Observer observer);
 
     // 删除观察者对象
-    public void removeObserver(Observer observer) {
-        list.remove(observer);
-    }
+    public void removeObserver(Observer observer);
 
     // 通知所有的观察者更新状态
-    public void notifyAllObserver(){
-
-        for(Observer obs : list) {
-            obs.update(this);
-        }
-    }
+    public void notifyAllObserver();
 
 }

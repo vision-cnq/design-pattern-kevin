@@ -5,7 +5,7 @@ import java.util.Observable;
 /**
  * @author kevin
  * @version 1.0
- * @description     目标对象
+ * @description     具体主题
  * @createDate 2019/3/4
  */
 public class ConcreteSubject extends Observable {

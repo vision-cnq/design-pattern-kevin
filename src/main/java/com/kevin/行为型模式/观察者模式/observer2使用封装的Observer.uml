@@ -3,59 +3,59 @@
   <ID>JAVA</ID>
   <OriginalElement>com.kevin.行为型模式.观察者模式.observer2.ConcreteSubject</OriginalElement>
   <nodes>
-    <node x="26.31250000000003" y="0.0">java.util.Observer</node>
-    <node x="78.42291666666668" y="330.0">com.kevin.行为型模式.观察者模式.observer2.Test</node>
-    <node x="73.92291666666668" y="170.0">com.kevin.行为型模式.观察者模式.observer2.ConcreteSubject</node>
+    <node x="26.3125" y="0.0">java.util.Observer</node>
+    <node x="78.42291666666667" y="330.0">com.kevin.行为型模式.观察者模式.observer2.Test</node>
+    <node x="73.92291666666667" y="170.0">com.kevin.行为型模式.观察者模式.observer2.ConcreteSubject</node>
     <node x="0.0" y="250.0">com.kevin.行为型模式.观察者模式.observer2.ObserverA</node>
-    <node x="37.67291666666667" y="80.0">java.util.Observable</node>
+    <node x="37.672916666666666" y="80.0">java.util.Observable</node>
   </nodes>
   <notes />
   <edges>
     <edge source="java.util.Observer" target="java.util.Observable">
       <point x="38.25" y="15.0" />
-      <point x="115.56250000000003" y="55.0" />
+      <point x="115.5625" y="55.0" />
       <point x="133.50625000000002" y="55.0" />
-      <point x="38.33333333333336" y="-15.0" />
-    </edge>
-    <edge source="java.util.Observable" target="java.util.Observer">
-      <point x="1.4210854715202004E-14" y="-15.0" />
-      <point x="95.17291666666668" y="55.0" />
-      <point x="90.06250000000003" y="55.0" />
-      <point x="12.75" y="15.0" />
+      <point x="38.33333333333334" y="-15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.观察者模式.observer2.Test" target="com.kevin.行为型模式.观察者模式.observer2.ConcreteSubject">
-      <point x="27.0" y="-15.0" />
-      <point x="141.42291666666668" y="310.0" />
-      <point x="159.83958333333334" y="310.0" />
-      <point x="159.83958333333334" y="225.0" />
-      <point x="192.25625000000002" y="225.0" />
-      <point x="47.33333333333334" y="15.0" />
+      <point x="9.0" y="-15.0" />
+      <point x="123.42291666666667" y="300.0" />
+      <point x="148.83958333333334" y="300.0" />
+      <point x="148.83958333333334" y="225.0" />
+      <point x="144.92291666666665" y="225.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="95.17291666666667" y="55.0" />
+      <point x="90.0625" y="55.0" />
+      <point x="12.75" y="15.0" />
     </edge>
     <edge source="java.util.Observable" target="java.util.Observable">
       <point x="-43.125" y="15.0" />
-      <point x="52.04791666666667" y="130.0" />
-      <point x="17.67291666666668" y="130.0" />
-      <point x="17.67291666666668" y="95.0" />
+      <point x="52.047916666666666" y="130.0" />
+      <point x="17.672916666666666" y="130.0" />
+      <point x="17.672916666666666" y="95.0" />
       <point x="-57.5" y="-0.0" />
     </edge>
     <edge source="com.kevin.行为型模式.观察者模式.observer2.ObserverA" target="com.kevin.行为型模式.观察者模式.observer2.ConcreteSubject">
-      <point x="36.66666666666667" y="-15.0" />
-      <point x="91.66666666666667" y="225.0" />
-      <point x="97.58958333333334" y="225.0" />
+      <point x="36.66666666666666" y="-15.0" />
+      <point x="91.66666666666666" y="225.0" />
+      <point x="97.58958333333332" y="225.0" />
       <point x="-47.33333333333334" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.观察者模式.observer2.Test" target="com.kevin.行为型模式.观察者模式.observer2.ObserverA">
       <point x="-27.0" y="-15.0" />
-      <point x="87.42291666666668" y="310.0" />
+      <point x="87.42291666666667" y="310.0" />
       <point x="27.5" y="310.0" />
       <point x="-27.5" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.观察者模式.observer2.ObserverA" target="java.util.Observer">
-      <point x="-36.66666666666664" y="-15.0" />
-      <point x="18.333333333333357" y="225.0" />
-      <point x="7.17291666666668" y="225.0" />
-      <point x="7.17291666666668" y="55.0" />
-      <point x="39.06250000000003" y="55.0" />
+      <point x="-36.66666666666666" y="-15.0" />
+      <point x="18.333333333333343" y="225.0" />
+      <point x="7.172916666666666" y="225.0" />
+      <point x="7.172916666666666" y="55.0" />
+      <point x="39.0625" y="55.0" />
       <point x="-38.25" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.观察者模式.observer2.ConcreteSubject" target="java.util.Observable">
@@ -63,15 +63,15 @@
       <point x="14.375" y="15.0" />
     </edge>
     <edge source="com.kevin.行为型模式.观察者模式.observer2.ObserverA" target="java.util.Observable">
-      <point x="1.4210854715202004E-14" y="-15.0" />
-      <point x="55.000000000000014" y="225.0" />
-      <point x="42.42291666666668" y="225.0" />
-      <point x="42.42291666666668" y="150.0" />
-      <point x="80.79791666666668" y="150.0" />
+      <point x="7.105427357601002E-15" y="-15.0" />
+      <point x="55.00000000000001" y="225.0" />
+      <point x="42.422916666666666" y="225.0" />
+      <point x="42.422916666666666" y="150.0" />
+      <point x="80.79791666666667" y="150.0" />
       <point x="-14.375" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="113.5" y="132.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="114.0" y="133.0" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>
