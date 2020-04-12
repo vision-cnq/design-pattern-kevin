@@ -3,61 +3,35 @@
   <ID>JAVA</ID>
   <OriginalElement>com.kevin.行为型模式.解释器模式.interpreter.AndExpression</OriginalElement>
   <nodes>
-    <node x="248.76041666666669" y="180.0">com.kevin.行为型模式.解释器模式.interpreter.Test</node>
-    <node x="300.0" y="100.0">com.kevin.行为型模式.解释器模式.interpreter.TerminalExpression</node>
-    <node x="0.0" y="100.0">com.kevin.行为型模式.解释器模式.interpreter.OrExpression</node>
-    <node x="146.0" y="100.0">com.kevin.行为型模式.解释器模式.interpreter.AndExpression</node>
-    <node x="139.7013888888889" y="0.0">com.kevin.行为型模式.解释器模式.interpreter.Expression</node>
+    <node x="0.0" y="153.0">com.kevin.行为型模式.解释器模式.interpreter.Test</node>
+    <node x="311.0" y="79.0">com.kevin.行为型模式.解释器模式.interpreter.TerminalExpression</node>
+    <node x="159.0" y="79.0">com.kevin.行为型模式.解释器模式.interpreter.OrExpression</node>
+    <node x="0.0" y="79.0">com.kevin.行为型模式.解释器模式.interpreter.AndExpression</node>
+    <node x="166.0" y="0.0">com.kevin.行为型模式.解释器模式.interpreter.Expression</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.kevin.行为型模式.解释器模式.interpreter.Test" target="com.kevin.行为型模式.解释器模式.interpreter.TerminalExpression">
-      <point x="9.0" y="-15.0" />
-      <point x="293.7604166666667" y="150.0" />
-      <point x="380.5" y="150.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
     <edge source="com.kevin.行为型模式.解释器模式.interpreter.TerminalExpression" target="com.kevin.行为型模式.解释器模式.interpreter.Expression">
-      <point x="0.0" y="-15.0" />
-      <point x="380.5" y="60.0" />
-      <point x="229.8888888888889" y="60.0" />
-      <point x="34.6875" y="15.0" />
+      <point x="0.0" y="-14.5" />
+      <point x="398.0" y="54.0" />
+      <point x="264.33333333333337" y="54.0" />
+      <point x="39.33333333333337" y="14.5" />
     </edge>
     <edge source="com.kevin.行为型模式.解释器模式.interpreter.OrExpression" target="com.kevin.行为型模式.解释器模式.interpreter.Expression">
-      <point x="0.0" y="-15.0" />
-      <point x="63.0" y="60.0" />
-      <point x="160.5138888888889" y="60.0" />
-      <point x="-34.6875" y="15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.解释器模式.interpreter.Test" target="com.kevin.行为型模式.解释器模式.interpreter.Expression">
-      <point x="27.0" y="-15.0" />
-      <point x="311.7604166666667" y="160.0" />
-      <point x="471.5" y="160.0" />
-      <point x="471.5" y="50.0" />
-      <point x="243.7638888888889" y="50.0" />
-      <point x="48.5625" y="15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.解释器模式.interpreter.Test" target="com.kevin.行为型模式.解释器模式.interpreter.AndExpression">
-      <point x="-9.0" y="-15.0" />
-      <point x="275.7604166666667" y="150.0" />
-      <point x="213.0" y="150.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.解释器模式.interpreter.Test" target="com.kevin.行为型模式.解释器模式.interpreter.OrExpression">
-      <point x="-27.0" y="-15.0" />
-      <point x="257.7604166666667" y="160.0" />
-      <point x="63.0" y="160.0" />
-      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.kevin.行为型模式.解释器模式.interpreter.AndExpression" target="com.kevin.行为型模式.解释器模式.interpreter.Expression">
-      <point x="-44.66666666666666" y="-15.0" />
-      <point x="168.33333333333337" y="80.0" />
-      <point x="188.2638888888889" y="80.0" />
-      <point x="-6.9375" y="15.0" />
+      <point x="0.0" y="-14.5" />
+      <point x="69.5" y="54.0" />
+      <point x="185.66666666666666" y="54.0" />
+      <point x="-39.33333333333334" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="230.5" y="92.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="0.8586762075134168" x="269.5" y="94.0" />
+  <SelectedNodes>
+    <node>com.kevin.行为型模式.解释器模式.interpreter.Test</node>
+  </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

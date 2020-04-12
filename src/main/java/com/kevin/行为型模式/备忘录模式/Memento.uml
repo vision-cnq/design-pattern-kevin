@@ -9,42 +9,11 @@
     <node x="71.80000000000001" y="0.0">com.kevin.行为型模式.备忘录模式.memento.Emp</node>
   </nodes>
   <notes />
-  <edges>
-    <edge source="com.kevin.行为型模式.备忘录模式.memento.CareTaker" target="com.kevin.行为型模式.备忘录模式.memento.EmpMemento">
-      <point x="27.0" y="-15.0" />
-      <point x="91.25" y="135.0" />
-      <point x="97.5" y="135.0" />
-      <point x="32.5" y="15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.备忘录模式.memento.EmpMemento" target="com.kevin.行为型模式.备忘录模式.memento.Emp">
-      <point x="-43.33333333333334" y="-15.0" />
-      <point x="21.666666666666657" y="50.0" />
-      <point x="79.20000000000002" y="50.0" />
-      <point x="-29.599999999999994" y="15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.备忘录模式.memento.Test" target="com.kevin.行为型模式.备忘录模式.memento.Emp">
-      <point x="9.0" y="-15.0" />
-      <point x="119.0" y="210.0" />
-      <point x="140.5" y="210.0" />
-      <point x="140.5" y="60.0" />
-      <point x="123.6" y="60.0" />
-      <point x="14.799999999999983" y="15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.备忘录模式.memento.Emp" target="com.kevin.行为型模式.备忘录模式.memento.EmpMemento">
-      <point x="-14.800000000000011" y="15.0" />
-      <point x="94.0" y="60.0" />
-      <point x="65.0" y="60.0" />
-      <point x="0.0" y="-15.0" />
-    </edge>
-    <edge source="com.kevin.行为型模式.备忘录模式.memento.Test" target="com.kevin.行为型模式.备忘录模式.memento.CareTaker">
-      <point x="-9.0" y="-15.0" />
-      <point x="101.0" y="220.0" />
-      <point x="91.25" y="220.0" />
-      <point x="27.0" y="15.0" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="89.0" y="135.0" />
-  <SelectedNodes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="134.5" />
+  <SelectedNodes>
+    <node>com.kevin.行为型模式.备忘录模式.memento.CareTaker</node>
+  </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
